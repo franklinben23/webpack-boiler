@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "build": "webpack"
   },
   "repository": {
@@ -20,6 +19,9 @@
   },
   "homepage": "https://github.com/franklinben23/webpack-boiler#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.5",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1"
   },
